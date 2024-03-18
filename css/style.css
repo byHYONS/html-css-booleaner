@@ -4,7 +4,7 @@
 
 body {background-color: #f1f1f1; font-family: "Montserrat", sans-serif;}
 
-.container {width: 1160px; margin: 0 auto;}
+.container {width: 1000px; margin: 0 auto;}
 
 
 /* -------------------------
@@ -25,4 +25,26 @@ menu {
     background-size: 25%;
 }
 
+/* -------------------------
+          HEADER
+-------------------------- */
 
+h1{
+    font-size: 28px;
+    padding: 15px 0;
+}
+
+.data {font-size: 13px;}
+
+.autore strong {color: rgb(43, 146, 181)}
+
+img {
+    width: 49.5%;
+    height: 300px;
+    margin-top: 25px;   
+}
+
+.photo-description {
+    font-size: 8px;
+    font-style: italic;
+}
