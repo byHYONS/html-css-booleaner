@@ -1,12 +1,28 @@
 /*     ----- RESET -----      */
 
 * {box-sizing: border-box; margin: 0; padding: 0;}
-img {max-width: 100%;height: auto;}
+
 body {background-color: #f1f1f1; font-family: "Montserrat", sans-serif;}
+
 .container {width: 1160px; margin: 0 auto;}
-.divider {padding: 25px 0;}
-.spacer {padding: 75px 0;}
+
 
 /* -------------------------
-            header
+         Menù + Logo
 -------------------------- */
+menu {
+    background-color: rgb(43, 146, 181);
+    height: 100px;
+    background-image: url('../img/pattern.png');
+    background-size: contain;
+}
+
+.logo {
+    height: 100%;
+    background-image: url('../img/logo.svg');
+    background-repeat: no-repeat;
+    background-position: 44px;
+    background-size: 25%;
+}
+
+
