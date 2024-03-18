@@ -77,3 +77,37 @@ th {
 }
 td {padding: 10px;}
 .row1, .row3 {background-color: lightblue;}
+
+/* -----------------------------------
+        FOTO • POTREBBE INTERESSARTI  
+   ----------------------------------- */
+.photo1 {
+    width: 400px;
+    height: 250px;
+    background-image: url('../img/monitor.jpg');
+    background-size: cover;
+    color: white;
+    padding: 25px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.photo2 {
+    margin-top: 20px;
+    width: 400px;
+    height: 250px;
+    background-image: url('../img/graph.jpg');
+    background-size: cover;
+    color: white;
+    padding: 25px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.photo1 span, .photo2 span {
+    background: rgba(0, 0, 0, 0.308);
+    border-radius: 5px;
+    padding: 10px;
+}
