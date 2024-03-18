@@ -52,8 +52,28 @@ img {
  /* -----------------------------------
      PARAGRAFO + ELENCO NON ORDINATO  
   ----------------------------------- */
-p {margin: 25px 0;}
+  p {margin: 25px 0;}
+  
+  p span {background-color: rgb(229, 229, 91);}
+  
+  li {margin: 0 10px;}
 
-p span {background-color: rgb(229, 229, 91);}
+  /* -----------------------------------
+                TABELLA  
+   ----------------------------------- */
+table {margin: 40px 0; border-collapse: collapse;}
 
-li {margin: 0 10px;}
+.col1, .col2 {width: 20%;}
+
+.col3 {width: 60%;}
+
+th {
+    text-align: left;
+    padding: 10px;
+    background-color: rgb(43, 146, 181);
+    color: white;
+    height: 25px;
+    font-size: 12px;
+}
+td {padding: 10px;}
+.row1, .row3 {background-color: lightblue;}
