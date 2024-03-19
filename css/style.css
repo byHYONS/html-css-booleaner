@@ -44,8 +44,8 @@ img {
     margin-top: 25px;   
 }
 
-.photo-description {
-    font-size: 8px;
+.caption {
+    font-size: 10px;
     font-style: italic;
 }
 
@@ -81,10 +81,9 @@ td {padding: 10px;}
 /* -----------------------------------
         FOTO • POTREBBE INTERESSARTI  
    ----------------------------------- */
-.photo1 {
+.photo {
     width: 400px;
     height: 250px;
-    background-image: url('../img/monitor.jpg');
     background-size: cover;
     color: white;
     padding: 25px;
@@ -92,21 +91,15 @@ td {padding: 10px;}
     font-size: 20px;
     margin-top: 20px;
 }
+#monitor {
+     background-image: url('../img/monitor.jpg');
+ }
 
-.photo2 {
-    margin-top: 20px;
-    width: 400px;
-    height: 250px;
+ #graph {
     background-image: url('../img/graph.jpg');
-    background-size: cover;
-    color: white;
-    padding: 25px;
-    font-weight: 500;
-    font-size: 20px;
-    margin-bottom: 30px;
 }
 
-.photo1 span, .photo2 span {
+.photo span {
     background: rgba(0, 0, 0, 0.308);
     border-radius: 5px;
     padding: 10px;
